@@ -25,7 +25,7 @@ export default function Home() {
     <>
         <Navbar />
         <CarouselGallery/>
-      <div>
+      <div className="i also dont know">
 
       </div>
       <div>
