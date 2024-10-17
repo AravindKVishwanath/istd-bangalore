@@ -6,7 +6,7 @@ export default function Picture() {
       <div className={styles.card}>
         <img
           className={styles.image} // Added class here
-          src="https://t3.ftcdn.net/jpg/05/19/81/94/360_F_519819425_xgW3SoStxkZJMMXCRxHvM4qwA7Nm19Xe.jpg"
+          src="https://www.istdbangalore.com/assets/img/Varagaswamy.jpeg"
           alt="Sample"
         />
         <h1 className={styles.head}>Mission</h1>
@@ -14,7 +14,7 @@ export default function Picture() {
       <div className={styles.card}>
         <img
           className={styles.image} // Added class here
-          src="https://t3.ftcdn.net/jpg/04/18/52/88/360_F_418528804_xgyFvVsMSHeWk1UgDtR9aoccqSC7BrHy.jpg"
+          src="https://www.istdbangalore.com/assets/img/Upendra.jpg"
           alt="Sample"
         />
         <h1 className={styles.head}>Vision</h1>
@@ -22,7 +22,7 @@ export default function Picture() {
       <div className={styles.card}>
         <img
           className={styles.image} // Added class here
-          src="https://t3.ftcdn.net/jpg/05/19/81/94/360_F_519819425_xgW3SoStxkZJMMXCRxHvM4qwA7Nm19Xe.jpg"
+          src="https://www.istdbangalore.com/assets/img/Vijayashree.jpg"
           alt="Sample"
         />
         <h1 className={styles.head}>Mission</h1>
@@ -30,7 +30,7 @@ export default function Picture() {
       <div className={styles.card}>
         <img
           className={styles.image} // Added class here
-          src="https://t3.ftcdn.net/jpg/04/18/52/88/360_F_418528804_xgyFvVsMSHeWk1UgDtR9aoccqSC7BrHy.jpg"
+          src="https://www.istdbangalore.com/assets/img/Punarvas-Jaikumar.jpg"
           alt="Sample"
         />
         <h1 className={styles.head}>Vision</h1>

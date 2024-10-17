@@ -53,9 +53,9 @@ export default function CarouselGallery(){
 
             <style jsx>{`
                 .carousel-container {
-                max-height:600px;
+                    min-height:600px;
                     max-width: 100%;
-                    margin: 0 auto;
+                    margin-top:60px;
                 }
                 .legend {
                     background: rgba(0, 0, 0, 0.5);
