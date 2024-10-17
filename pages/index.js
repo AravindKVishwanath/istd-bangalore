@@ -36,15 +36,14 @@ export default function Home() {
     <>
         <Navbar />
         <CarouselGallery/>
-        <div className={styles.viewmore} style={{alignItems:"center",justifyContent:"center",display:"flex",width:"100%",margin:20}}>
+        <div className={styles.viewmore} style={{alignItems:"center",justifyContent:"center",display:"flex",width:"100%",marginTop:50,marginBottom:50}}>
             <button className="btn btn-primary" onClick={handleScroll} style={{height:50,width:200,borderRadius:15,backgroundColor:"#0070f3"}}>
             View More
             </button>
         </div>
-        <Card/>
-        <div ref={nextSectionRef} className="istd-people-section" style={{ marginTop: '50px', height: '100vh',color:"black"}}>
-            <h2>Other Content</h2>
-            <p>Here is more content that is displayed after clicking the 'View More' button.</p>
+        <div ref={nextSectionRef} className="istd-people-section" style={{ height: '100vh',color:"black"}}>
+            <div style={{height:120,backgroundColor:"#0070f3"}}></div>
+            <Card/>
             {/* You can add more content here */}
         </div>
 

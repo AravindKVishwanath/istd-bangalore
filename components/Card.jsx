@@ -10,7 +10,7 @@ export default function Card() {
         />
         <p className={styles.para}>
             <h1 className={styles.head}>Mission</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat facilis excepturi cumque maxime saepe asperiores cupiditate in harum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam sint, accusantium facere, et, voluptates tenetur aut perferendis earum consequuntur autem nihil qui quibusdam laborum omnis dignissimos quae velit minus quia!</p>
+            Lorem ipsu dolor sit amet consectetur adipisicing elit. Est quaerat facilis excepturi cumque maxime saepe asperiores cupiditate in harum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam sint, accusantium facere, et, voluptates tenetur aut perferendis earum consequuntur autem nihil qui quibusdam laborum omnis dignissimos quae velit minus quia!</p>
       </div>
       <div className={styles.card}>
         <img
