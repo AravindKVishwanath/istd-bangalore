@@ -6,8 +6,9 @@ import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
 import axios from 'axios'
 import { useEffect } from "react";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar.js";
 import CarouselGallery from "./Carousel";
+import Card from '../components/Card.jsx';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -40,6 +41,7 @@ export default function Home() {
             View More
             </button>
         </div>
+        <Card/>
         <div ref={nextSectionRef} className="istd-people-section" style={{ marginTop: '50px', height: '100vh',color:"black"}}>
             <h2>Other Content</h2>
             <p>Here is more content that is displayed after clicking the 'View More' button.</p>
