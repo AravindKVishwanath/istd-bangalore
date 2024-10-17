@@ -11,11 +11,13 @@ export default function Card() {
         />
         <h1 className={styles.head}>Mission</h1>
         <p className={styles.para}>
+
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat
           facilis excepturi cumque maxime saepe asperiores cupiditate in harum.
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
           sint, accusantium facere, et, voluptates
         </p>
+
       </div>
       <div className={styles.card}>
         <img
