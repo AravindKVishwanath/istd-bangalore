@@ -1,5 +1,5 @@
 'use-client'
-
+import { useRef } from 'react';
 import Head from "next/head";
 import Image from "next/image";
 import localFont from "next/font/local";
@@ -21,22 +21,36 @@ const geistMono = localFont({
 });
 
 export default function Home() {
+
+    const nextSectionRef = useRef(null);
+
+    // Function to scroll to the next section
+    const handleScroll = () => {
+      if (nextSectionRef.current) {
+        nextSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
   return (
     <>
         <Navbar />
         <CarouselGallery/>
-      <div>
+        <div className={styles.viewmore} style={{alignItems:"center",justifyContent:"center",display:"flex",width:"100%",margin:20}}>
+            <button className="btn btn-primary" onClick={handleScroll} style={{height:50,width:200,borderRadius:15,backgroundColor:"#0070f3"}}>
+            View More
+            </button>
+        </div>
+        <div ref={nextSectionRef} className="istd-people-section" style={{ marginTop: '50px', height: '100vh',color:"black"}}>
+            <h2>Other Content</h2>
+            <p>Here is more content that is displayed after clicking the 'View More' button.</p>
+            {/* You can add more content here */}
+        </div>
 
-      </div>
-      <div>
-
-      </div>
-      <div>
-
-      </div>
-      <div>
-
-      </div>
+        <div className="footer-section" style={{ height: '50vh',color:"black"}}>
+            {/* Additional content or sections */}
+            <h3>Section 2</h3>
+            <p>More details or sections as needed.</p>
+        </div>
     </>
   );
 }
