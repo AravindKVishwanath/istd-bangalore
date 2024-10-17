@@ -1,53 +1,62 @@
 .cardContainer {
     display: flex;
-    justify-content: space-between;
     gap: 20px;
+    justify-content: space-between;
+    margin: 40px;
+    flex-wrap: wrap;
     padding: 20px;
-  }
-  
-  .card {
-    position: relative;
-    width: 45%;
-    overflow: hidden;
+    background: linear-gradient(to right, #e1f5fe, #e0f7fa);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card img {
-    width: 100%;
+}
+
+.card {
+    position: relative;
+    width: 45%; 
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); 
+}
+
+.image {
+    width: 100%; 
     height: 100%;
+    object-fit: cover; 
     display: block;
     border-radius: 10px;
-    opacity: 0.5;
-  }
-  
-  .para {
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .image {
+    opacity: 0.85; 
+}
+
+.head {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: #fff;
+    font-size: 1.8em; 
+    font-weight: bold;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.para {
     position: absolute;
     top: 35%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-size: 1.2rem;
-    /* background-color: rgba(0, 0, 0, 0.5); Transparent background */
-    padding: 10px 15px;
-    border-radius: 8px;
-    text-align:justify;
-  }
-
-  .head{
-    margin-top: 30%;
-    margin-bottom: 5%;
-  }
-  
-
-  @media (max-width: 768px) {
-    .cardContainer {
-      flex-direction: column;
-      gap: 20px;
-    }
-  
-    .card {
-      width: 100%;
-    }
-  }
-  
+    left: 5%;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+    text-align: justify;
+    width: 85%; 
+    font-size: 1.1em;
+    line-height: 1.5; 
+}

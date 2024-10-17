@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import Navbar from "../components/Navbar.js";
 import CarouselGallery from "./Carousel";
 import Card from '../components/Card.jsx';
+import Picture from '../components/Picture.jsx'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -46,8 +47,8 @@ export default function Home() {
             <h2>Other Content</h2>
             <p>Here is more content that is displayed after clicking the 'View More' button.</p>
             {/* You can add more content here */}
+            <Picture/>
         </div>
-
         <div className="footer-section" style={{ height: '50vh',color:"black"}}>
             {/* Additional content or sections */}
             <h3>Section 2</h3>
