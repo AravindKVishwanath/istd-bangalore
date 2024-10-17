@@ -163,3 +163,10 @@ a.secondary {
     filter: invert();
   }
 }
+
+.viewmore{
+  height: 100px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
