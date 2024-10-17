@@ -53,7 +53,7 @@ export default function CarouselGallery(){
 
             <style jsx>{`
                 .carousel-container {
-                    min-height:600px;
+                    max-height:600px;
                     max-width: 100%;
                     margin-top:60px;
                 }

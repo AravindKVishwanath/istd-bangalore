@@ -7,6 +7,7 @@
     padding: 20px;
     background: linear-gradient(to right, #e1f5fe, #e0f7fa);
     border-radius: 10px;
+    overflow:hidden;
 }
 
 .card {
