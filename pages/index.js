@@ -28,7 +28,7 @@ export default function Home() {
       <div className="idk">
 
       </div>
-      <div>
+      <div className="i also dk">
 
       </div>
       <div>
