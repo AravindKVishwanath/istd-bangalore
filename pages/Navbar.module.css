@@ -3,7 +3,7 @@
 .navbar {
   background: linear-gradient(135deg, #0070f3, #00c4ff);
   padding: 1.5rem;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000;
