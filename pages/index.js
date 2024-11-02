@@ -9,6 +9,9 @@ import { useEffect } from "react";
 import Navbar from "../components/Navbar.js";
 import CarouselGallery from "./Carousel";
 import Card from '../components/Card.jsx';
+import Picture from '../components/Picture.jsx'
+import Footer from '../components/Footer';
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,23 +37,22 @@ export default function Home() {
 
   return (
     <>
-        <Navbar />
+        <Navbar />  
         <CarouselGallery/>
-        <div className={styles.viewmore} style={{alignItems:"center",justifyContent:"center",display:"flex",width:"100%",marginTop:50,marginBottom:50}}>
-            <button className="btn btn-primary" onClick={handleScroll} style={{height:50,width:200,borderRadius:15,backgroundColor:"#0070f3"}}>
-            View More
-            </button>
+        <div style={{alignItems:"center",justifyContent:"center",display:"flex",color:"black",margin:35 }}>
+          <h1>
+            There will some content here about ISTD bangalore
+          </h1>
         </div>
-        <div ref={nextSectionRef} className="istd-people-section" style={{ height: '100vh',color:"black"}}>
-            <div style={{height:120,backgroundColor:"#0070f3"}}></div>
+        <div className="istd-people-section" style={{ height: '100vh',color:"black"}}>
+            <div style={{height:30,backgroundColor:"#ffffff"}}></div>
             <Card/>
             {/* You can add more content here */}
+            <Picture/>
         </div>
-
         <div className="footer-section" style={{ height: '50vh',color:"black"}}>
             {/* Additional content or sections */}
-            <h3>Section 2</h3>
-            <p>More details or sections as needed.</p>
+            <Footer/>
         </div>
     </>
   );
