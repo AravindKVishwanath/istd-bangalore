@@ -17,6 +17,9 @@
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
 }
 
 .card:hover {
@@ -31,19 +34,23 @@
     display: block;
     border-radius: 10px;
     transition: opacity 0.3s ease;
+    opacity: 0.65;
 }
 
 .card:hover .image {
     opacity: 0.85; 
+}
+.card:hover .head .para{
+    color: white;
 }
 
 .head {
     position: absolute;
     top: 20%;
     left: 5%;
-    color: #fff;
-    font-size: 1.8em; 
-    font-weight: bold;
+    color: #000000;
+    font-size: 2.5em; 
+    font-weight: 700;
     z-index: 1;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
@@ -52,12 +59,13 @@
     position: absolute;
     top: 35%;
     left: 5%;
-    color: white;
+    color: #000000;
+    font-weight: 600;
     padding: 10px;
     border-radius: 5px;
     z-index: 1;
     text-align: justify;
     width: 85%; 
-    font-size: 1.1em;
+    font-size: 1.5em;
     line-height: 1.5; 
 }

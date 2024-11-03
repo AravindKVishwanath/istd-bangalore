@@ -15,8 +15,10 @@ export default function Post() {
   return (
     <div>
       <Navbar />
-      <h1>{post.title}</h1>
-      <p>{post.content}</p>
+      <div style={{marginTop:100,color:'black'}}>
+        <h1>{post.title}</h1>
+        <p>{post.content}</p>
+      </div>
     </div>
   );
 }
