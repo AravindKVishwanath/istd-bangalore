@@ -4,8 +4,10 @@ export default function Committee() {
   return (
     <div>
       <Navbar />
-      <h1>Our Committee</h1>
-      <p>Meet the talented team behind our success.</p>
+      <div style={{marginTop:100,color:"black"}}>
+        <h1>Our Committee</h1>
+        <p>Meet the talented team behind our success.</p>
+      </div>
     </div>
   );
 }

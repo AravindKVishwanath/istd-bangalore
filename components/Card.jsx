@@ -11,10 +11,7 @@ export default function Card() {
         />
         <h1 className={styles.head}>Mission</h1>
         <p className={styles.para}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat
-          facilis excepturi cumque maxime saepe asperiores cupiditate in harum.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
-          sint, accusantium facere, et, voluptates
+          “To Facilitate Individuals and Organizations. To excel in Training & Development Activities Serve As Reservoir of Universal Knowledge of Human Interface through Innovative Practices and Original Exploratory Research”
         </p>
 
       </div>
@@ -26,10 +23,7 @@ export default function Card() {
         />
         <h1 className={styles.head}>Vision</h1>
         <p className={styles.para}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat
-          facilis excepturi cumque maxime saepe asperiores cupiditate in harum.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
-          harum neque numquam error molestiae explicabo
+          "Leading Transformation through Training & Development"
         </p>
       </div>
     </div>

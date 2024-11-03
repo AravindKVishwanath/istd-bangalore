@@ -6,16 +6,18 @@ export default function Blog() {
   return (
     <div>
       <Navbar />
-      <h1>Blog</h1>
-      <ul>
-        {posts.map((post) => (
-          <li key={post.id}>
-            <Link href={`/blog/${post.id}`}>
-              {post.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <div style={{marginTop:100,color:'black'}}>
+        <h1>Blog</h1>
+        <ul>
+          {posts.map((post) => (
+            <li key={post.id}>
+              <Link href={`/blog/${post.id}`}>
+                {post.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
       <style jsx>{`
         ul {
           list-style: none;
