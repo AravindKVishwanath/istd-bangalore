@@ -81,10 +81,7 @@ export default function Navbar() {
                 }
               }}
             >
-              <span className={styles.dropdownToggle}>
-  Our Team <span className={styles.dropdownArrow}></span>
-</span>
-
+              Our Team <span className={styles.dropdownArrow}></span>
             </span>
             <ul className={`${styles.dropdownContent} ${dropdownOpen.ourTeam ? styles.dropdownActive : ''}`}>
               <li>
@@ -115,10 +112,7 @@ export default function Navbar() {
                 }
               }}
             >
-              <span className={styles.dropdownToggle}>
-  Join Us <span className={styles.dropdownArrow}></span>
-</span>
-
+              Join Us <span className={styles.dropdownArrow}></span>
             </span>
             <ul className={`${styles.dropdownContent} ${dropdownOpen.joinUs ? styles.dropdownActive : ''}`}>
               <li>
