@@ -9,7 +9,8 @@ export default function Picture() {
           src="https://www.istdbangalore.com/assets/img/Varagaswamy.jpeg"
           alt="Sample"
         />
-        <h1 className={styles.head}>Mission</h1>
+        <h3 className={styles.head}>Mr. G Varaga Swamy</h3>
+        <h4 className={styles.position}>Chairman</h4>
       </div>
       <div className={styles.card}>
         <img
@@ -17,7 +18,8 @@ export default function Picture() {
           src="https://www.istdbangalore.com/assets/img/Upendra.jpg"
           alt="Sample"
         />
-        <h1 className={styles.head}>Vision</h1>
+        <h3 className={styles.head}>Dr. T Upendra</h3>
+        <h4 className={styles.position}>Vice Chairman</h4>
       </div>
       <div className={styles.card}>
         <img
@@ -25,7 +27,8 @@ export default function Picture() {
           src="https://www.istdbangalore.com/assets/img/Vijayashree.jpg"
           alt="Sample"
         />
-        <h1 className={styles.head}>Mission</h1>
+        <h3 className={styles.head}>Dr. L Vijayashree</h3>
+        <h4 className={styles.position}>Hon. Secretary</h4>
       </div>
       <div className={styles.card}>
         <img
@@ -33,7 +36,8 @@ export default function Picture() {
           src="https://www.istdbangalore.com/assets/img/Punarvas-Jaikumar.jpg"
           alt="Sample"
         />
-        <h1 className={styles.head}>Vision</h1>
+        <h3 className={styles.head}>Mr. C A Punarvas Jaikumar</h3>
+        <h4 className={styles.position}>Hon. Treasurer</h4>
       </div>
     </div>
   );

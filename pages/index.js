@@ -53,7 +53,7 @@ export default function Home() {
       <Navbar />  
       <CarouselGallery/>
       <div style={{ alignItems: "center", justifyContent: "center", display: "flex", color: "black", margin: 35 }}>
-        <h1>There will be some content here about ISTD Bangalore</h1>
+        {/* <h1>There will be some content here about ISTD Bangalore</h1> */}
         <h2>{quote}</h2> {/* Displaying the quote here */}
       </div>
       <div className="istd-people-section" style={{ height: '100vh', color: "black" }}>
