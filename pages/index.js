@@ -30,8 +30,8 @@ export default function Home() {
   useEffect(() => {
     const fetchQuote = async () => {
       try {
-        const response = await axios.get('/api/quote');
-        setQuote(response.data.quote);
+        const response = await axios.get('/api/quotes');
+        setQuote(response.data.Quote);
       } catch (error) {
         console.error("Error fetching quote:", error);
         setQuote("Stay inspired and keep innovating!"); // Fallback message
