@@ -1,4 +1,5 @@
 import styles from './Footer.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Footer = () => {
   return (
@@ -34,8 +35,16 @@ const Footer = () => {
             </div>
 
             <div className={`${styles.col} ${styles.footerInfo}`}>
-              <h3>About ISTD</h3>
-              <p>ISTD, established in April 1970, is a national level professional & non-profit society.</p>
+              <h3>Developed By</h3>
+              {/* <p>ISTD, established in April 1970, is a national level professional & non-profit society.</p> */}
+              <div className={styles.one}>
+                <FontAwesomeIcon icon="fa-brands fa-linkedin" height={20} />
+                <p><a href='https://www.linkedin.com/in/aniketh-vijay-55a45825a/' target='_blank'>Aniketh G V</a></p>
+              </div>
+              <div className={styles.one}>
+                <FontAwesomeIcon icon="fa-brands fa-linkedin" height={20} />
+                <p><a href='https://www.linkedin.com/in/aravindkvishwanath' target='_blank'>Aravind K Vishwanath</a></p>
+              </div>
               <div className={styles.socialLinks}>
                 <a href="#" className={styles.twitter}><i className="bx bxl-twitter"></i></a>
                 <a href="#" className={styles.facebook}><i className="bx bxl-facebook"></i></a>

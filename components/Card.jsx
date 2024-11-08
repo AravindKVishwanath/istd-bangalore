@@ -11,7 +11,7 @@ export default function Card() {
         />
         <h1 className={styles.head}>Mission</h1>
         <p className={styles.para}>
-          “To Facilitate Individuals and Organizations. To excel in Training & Development Activities Serve As Reservoir of Universal Knowledge of Human Interface through Innovative Practices and Original Exploratory Research”
+          To Facilitate Individuals and Organizations. To excel in Training & Development Activities Serve As Reservoir of Universal Knowledge of Human Interface through Innovative Practices and Original Exploratory Research
         </p>
 
       </div>
@@ -23,7 +23,7 @@ export default function Card() {
         />
         <h1 className={styles.head}>Vision</h1>
         <p className={styles.para}>
-          "Leading Transformation through Training & Development"
+          Leading Transformation through Training & Development
         </p>
       </div>
     </div>

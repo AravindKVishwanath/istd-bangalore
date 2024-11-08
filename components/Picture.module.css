@@ -28,7 +28,7 @@
   
   .image {
     width: 100%;
-    height: 270px;
+    height: 240px;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     transition: opacity 0.3s ease;
@@ -40,9 +40,9 @@
   
   .head {
     margin-top: 10px;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #1e88e5;
+    font-size: 1em;
+    /* font-weight: bold; */
+    color: #000000;
     transition: color 0.3s ease;
   }
   
@@ -56,3 +56,8 @@
     color: #757575;
   }
   
+  .position{
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 2;
+  }

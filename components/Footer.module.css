@@ -5,9 +5,9 @@
     margin-top: 300px;
   }
   
-  .footerTop {
+  /* .footerTop {
     padding: 60px 0;
-  }
+  } */
   
   .container {
     max-width: 1200px;
@@ -29,7 +29,7 @@
   
   .footerLinks h4, .footerContact h4, .footerInfo h3 {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #fff;
   }
   
@@ -75,6 +75,17 @@
     color: #fff;
   }
   
+
+.one{
+  display: flex;
+  flex-direction: row;
+  
+}
+  .svg{
+    width: 1.5em;
+    height: 1.5em;
+  }
+
   /* Media query for responsive design */
   @media (min-width: 768px) {
     .col {
