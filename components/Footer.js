@@ -1,5 +1,4 @@
 import styles from './Footer.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Footer = () => {
   return (
@@ -36,20 +35,13 @@ const Footer = () => {
 
             <div className={`${styles.col} ${styles.footerInfo}`}>
               <h3>Developed By</h3>
-              {/* <p>ISTD, established in April 1970, is a national level professional & non-profit society.</p> */}
-              <div className={styles.one}>
-                <FontAwesomeIcon icon="fa-brands fa-linkedin" height={20} />
-                <p><a href='https://www.linkedin.com/in/aniketh-vijay-55a45825a/' target='_blank'>Aniketh G V</a></p>
+              <div className={styles.developerInfo}>
+              <a href='https://www.linkedin.com/in/aniketh-vijay-55a45825a/' target='_blank'><svg className={styles.linkedinIcon} viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></svg></a>
+                <a href='https://www.linkedin.com/in/aniketh-vijay-55a45825a/' target='_blank'>Aniketh G V</a>
               </div>
-              <div className={styles.one}>
-                <FontAwesomeIcon icon="fa-brands fa-linkedin" height={20} />
-                <p><a href='https://www.linkedin.com/in/aravindkvishwanath' target='_blank'>Aravind K Vishwanath</a></p>
-              </div>
-              <div className={styles.socialLinks}>
-                <a href="#" className={styles.twitter}><i className="bx bxl-twitter"></i></a>
-                <a href="#" className={styles.facebook}><i className="bx bxl-facebook"></i></a>
-                <a href="#" className={styles.instagram}><i className="bx bxl-instagram"></i></a>
-                <a href="#" className={styles.linkedin}><i className="bx bxl-linkedin"></i></a>
+              <div className={styles.developerInfo}>
+              <a href='https://www.linkedin.com/in/aravindkvishwanath' target='_blank'><svg className={styles.linkedinIcon} viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" /></svg></a>
+                <a href='https://www.linkedin.com/in/aravindkvishwanath' target='_blank'>Aravind K Vishwanath</a>
               </div>
             </div>
           </div>

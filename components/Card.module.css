@@ -7,7 +7,7 @@
     padding: 20px;
     background: linear-gradient(to right, #e1f5fe, #e0f7fa);
     border-radius: 10px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .card {
@@ -40,7 +40,8 @@
 .card:hover .image {
     opacity: 0.65; 
 }
-.card:hover .head .para{
+
+.card:hover .head, .card:hover .para {
     color: white;
 }
 
@@ -68,4 +69,33 @@
     width: 85%; 
     font-size: 1.1em;
     line-height: 1.5; 
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .cardContainer {
+        flex-direction: column;
+        gap: 15px;
+        margin: 20px;
+    }
+
+    .card {
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .image {
+        height: auto; /* Adjust height to keep aspect ratio */
+        border-radius: 15px; /* Match the card's rounded corners */
+    }
+
+    .head {
+        font-size: 1.5rem; /* Smaller font size for smaller screens */
+        left: 10%; /* Adjusted positioning for text */
+    }
+
+    .para {
+        font-size: 1em;
+        top: 50%; /* Adjust text position for readability */
+        left: 10%;
+    }
 }
